@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" viewBox="0 0 400 706.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #004e83;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="svg8" inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+    <sodipodi:namedview id="base" bordercolor="#666666" borderopacity="1.0" fit-margin-bottom="0" fit-margin-left="0" fit-margin-right="0" fit-margin-top="0" inkscape:current-layer="layer1" inkscape:cx="-21.884867" inkscape:cy="-1711.1873" inkscape:document-units="px" inkscape:pagecheckerboard="true" inkscape:pageopacity="0.82352941" inkscape:pageshadow="2" inkscape:window-height="1008" inkscape:window-maximized="0" inkscape:window-width="958" inkscape:window-x="1913" inkscape:window-y="0" inkscape:zoom="0.12374369" pagecolor="#ffffff" showgrid="false" units="px"/>
+    <g id="layer1" inkscape:groupmode="layer" inkscape:label="Layer 1">
+      <path id="path47" class="cls-1" d="M282,706.4c-106.4,0-185.4-54.5-185.4-185.4v-209.3H0v-113.5C106.4,170.7,150.8,79.4,155.7,0h110.4v180h128.6v131.7h-128.6v182.3c0,54.5,27.5,73.6,71.4,73.6h62.5v138.8h-118Z" inkscape:connector-curvature="0"/>
+    </g>
+  </g>
+</svg>

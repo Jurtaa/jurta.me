@@ -1,3 +1,7 @@
+:root {
+	--button-base: rgba(29, 74, 217, 0.15);
+	--button-base-hover: rgba(29, 74, 217, 1);
+}
 html {
 	height: 100%;
 }
@@ -13,4 +17,37 @@ body {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	gap: 16px;
+}
+.socials-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	gap: 6px;
+}
+.social-button {
+	height: 48px;
+	width: 48px;
+	background-color: var(--button-base);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 8px;
+	transition: 0.2s;
+}
+.social-button:hover {
+	background-color: var(--button-base-hover);
+	cursor: pointer;
+}
+.social-icon {
+	height: 32px;
+	width: 32px;
+	object-fit: contain;
+	transition: 0.2s;
+}
+.social-button:hover .social-icon {
+	filter: contrast(0%) brightness(2);
+}
+.social-button:hover .social-icon #path1414 {
+	opacity: 0;
 }
