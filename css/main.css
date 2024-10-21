@@ -19,7 +19,7 @@ body {
 	flex-direction: column;
 	gap: 16px;
 }
-.socials-container {
+.lower-container {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
@@ -47,7 +47,4 @@ body {
 }
 .social-button:hover .social-icon {
 	filter: contrast(0%) brightness(2);
-}
-.social-button:hover .social-icon #path1414 {
-	opacity: 0;
 }
