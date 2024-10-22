@@ -16,6 +16,11 @@ body {
 	margin: 0;
 	color: white;
 }
+
+.logo, .social-icon {
+	pointer-events: none;
+}
+
 .container {
 	min-height: 100vh;
 	display: flex;
