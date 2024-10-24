@@ -1,6 +1,7 @@
-# Last updated 24/10/2024
+# Last updated : 24/10/2024
 
-# - AI BOTS - #
+# ======================= #
+# Disallow all possible AI bots from scraping. Do not use my stuff for AI purposes. Thank you. #
 
 User-agent: CCBot
 Disallow: /
