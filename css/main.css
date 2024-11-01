@@ -34,7 +34,7 @@ a {
 
 ul.link-list {
 	list-style-type: none;
-	margin: 0 auto;
+	margin: 0 auto 8px;
 	padding: 0;
 }
 
