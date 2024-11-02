@@ -36,10 +36,14 @@ a {
 	margin: 8pt 0;
 }
 
+#contents > * {
+	display: inline;
+}
+
 #contents p {
-	margin: 4pt 0;
-	line-height: 1em;
 	font-size: 90%;
+	font-style: italic;
+	color: #aaa;
 }
 
 .header {
