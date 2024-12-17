@@ -3,11 +3,6 @@
     "short_name": "Jurta",
     "icons": [
 		{
-			"src": "/img/icon.svg",
-			"sizes": "512x512",
-			"type": "image/svg+xml"
-		},
-		{
 			"src": "/img/favicon/google/512x.png",
 			"sizes": "512x512",
 			"type": "image/png"
