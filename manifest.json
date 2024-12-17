@@ -1,12 +1,20 @@
 {
     "name": "Jurta",
     "short_name": "Jurta",
-    "icons": [{
-        "src": "img/favicon/google.png",
-        "sizes": "512x512",
-		"type": "image/png",
-		"purpose": "maskable"
-    }],
+    "icons": [
+		{
+			"src": "img/favicon/google/512x.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "maskable"
+		},
+		{
+			"src": "img/favicon/google/192x.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "maskable"
+		}
+	],
     "background_color": "#1D4AD9",
     "theme_color": "#1D4AD9",
     "display": "standalone"
