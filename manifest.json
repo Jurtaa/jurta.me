@@ -1,0 +1,11 @@
+{
+    "name": "Jurta",
+    "short_name": "Jurta",
+    "icons": [{
+        "src": "google.png",
+        "sizes": "512x512"
+    }],
+    "background_color": "#1D4AD9",
+    "theme_color": "#1D4AD9",
+    "display": "fullscreen"
+}
