@@ -3,7 +3,7 @@
     "short_name": "Jurta",
     "icons": [{
         "src": "img/favicon/google.png",
-        "sizes": "512x512"
+        "sizes": "512x512",
 		"type": "image/png",
 		"purpose": "maskable"
     }],
