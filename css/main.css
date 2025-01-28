@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-	--button-base-trans: rgba(29, 74, 217, 0);
-	--button-base: rgba(29, 74, 217, 1);
+	--button-base: rgba(255, 255, 255, 1);
+	--button-base-alt: rgba(0, 0, 0, 1);
+	--button-base-hover: rgba(29, 74, 217, 1);
 	--button-border: rgba(29, 74, 217, 0.5);
 }
 html {
@@ -64,7 +65,7 @@ ul.link-list li a {
 	display: inline-block;
 	padding: 4px 8px;
 	border: 1px solid var(--button-border);
-	background-color: var(--button-base-trans);
+	background-color: var(--button-base-alt);
 	transition: 0.2s;
 	color: white;
 }
@@ -74,7 +75,7 @@ header ul.link-list li a {
 }
 
 ul.link-list li a:hover {
-	background-color: var(--button-base);
+	background-color: var(--button-base-hover);
 }
 
 ul.link-list li:not(:last-child) a {
@@ -111,11 +112,21 @@ header ul.link-list li:last-child a {
 	flex-direction: row;
 	gap: 6px;
 }
+#video-background {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -9999;
+}
 .social-button {
 	position: relative;
 	height: 48px;
 	width: 48px;
-	background-color: var(--button-base-trans);
+	background-color: var(--button-base);
 	border: 1px solid var(--button-border);
 	box-sizing: border-box;
 	display: flex;
@@ -125,7 +136,7 @@ header ul.link-list li:last-child a {
 	transition: 0.2s;
 }
 .social-button:hover {
-	background-color: var(--button-base);
+	background-color: var(--button-base-hover);
 	cursor: pointer;
 }
 .social-icon {
@@ -148,8 +159,8 @@ header ul.link-list li:last-child a {
 	top: calc(100% + 10px);
 	border-radius: 6px;
 	box-shadow: 0 0 5px 2px rgba(100, 100, 100, 0.6);
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 	line-height: 1.1;
 	z-index: -10;
 	padding: 6px 10px;
@@ -168,7 +179,6 @@ header ul.link-list li:last-child a {
 }
 .subtitle {
 	font-size: 90%;
-	color: grey;
 }
 h1, h2, h3, h4, h5 {
 	margin-bottom: 0;
